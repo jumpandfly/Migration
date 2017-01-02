@@ -8,7 +8,7 @@ with open('asyldata.csv') as csvfile: #declaring variable csvfile
   asylist = [] #reads entire content via a list
 
   for row in readCSV: 
-    asylist.append(row)
+    asylist.append(row) #reading a list into a dictionary
 
 csvfile.close()
 
